@@ -29,7 +29,7 @@ Given an input image:
 4. Regularize with:
    - Total Variation (TV) loss for smoothness
    - L2 penalty for stability
-5.use this in terminal for all that
+5. use this in terminal for all that
 python mls.py --input ./{folder name}/{your input image.png/jpg} --output ./{folder name}/{output name.png/jpg} --eps {higher=more noise} --steps 180 --tv-weight 0.005 --l2-weight 0.001 --max-size 1080 --device cuda(for nvidia gpus)
 The final image remains visually similar but differs significantly in feature space.
 
