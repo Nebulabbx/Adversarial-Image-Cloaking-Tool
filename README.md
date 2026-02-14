@@ -30,7 +30,8 @@ Given an input image:
    - L2 penalty for stability
 5. Use this in terminal:
 python mls.py --input ./{folder name}/{your input image.png/jpg} --output ./{folder name}/{output name.png/jpg} --eps {higher=more noise} --steps 180 --tv-weight 0.005 --l2-weight 0.001 --max-size 1080 --device cuda(for nvidia gpus)
-The final image remains visually similar but differs significantly in feature space.
+ 
+ The final image remains visually similar but differs significantly in feature space.
 
 ---
 
